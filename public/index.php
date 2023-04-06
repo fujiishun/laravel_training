@@ -23,8 +23,8 @@
         <img src="<?php echo $imageURL; ?>" width="200" height="140" alt="" /><br/></a>
         <?php echo "本文： ".$text;
         ?><br/>
-        <a href="delete.php?id=<?php print($row['id']) ?>">削除</a>
-        <a href="editPage.php?id=<?php print($row['id']) ?>">編集</a><hr/>
+        <a href="components/delete.php?id=<?php print($row['id']) ?>">削除</a>
+        <a href="components/editPage.php?id=<?php print($row['id']) ?>">編集</a><hr/>
     <?php }
     }else{ ?>
         <p>投稿が見つからず表示されません..

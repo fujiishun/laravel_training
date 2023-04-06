@@ -18,7 +18,7 @@
             $sql1 = "ALTER TABLE `images` auto_increment = 1;";
             $stmt = $dbh->query($sql1); // DELETE文実行
             print "レコードを削除しました";
-            echo '<br/><a href="http://localhost:8888/php_lesson01/">Home</a>';
+            echo '<br/><a href="http://127.0.0.1:8000">Home</a>';
 
             // 接続切断
             $dbh = null;

@@ -15,7 +15,7 @@
       <a href="http://127.0.0.1:8000">Home</a>
     </li>
     <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/send.php">Send</a></li>
-    <li class="nav-list-item"><a href="http://localhost:8888/php_lesson01/searchPage.php">Search</a></li>
+    <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/searchPage.php">Search</a></li>
   </ul>
 </header>
 <body>

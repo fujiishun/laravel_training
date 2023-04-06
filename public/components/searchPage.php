@@ -3,10 +3,13 @@
 <h1>検索ページ</h1>
     <form action="searchPage.php" method="post">
     ID:<input type="text" name="id">
+    
     <?php
-        if(preg_match("/[^0-9]/", $_POST['id'])){
+    if (!empty($_POST["id"])) {
+        $id=$_POST["id"];
+        if(preg_match("/[^0-9]/", $id)){
             echo " IDは数字で入力してください！";
-        }
+        }}
     ?>
     <br>
         <input type="submit">
@@ -14,7 +17,6 @@
     <?php
     // データベース設定ファイルを含む
     include 'dbConfig.php';
-    $id=$_POST["id"];
     if(@$id){ //IDおよびユーザー名の入力有無を確認
         $query = $db->query("SELECT * FROM images WHERE id=$id"); //SQL文を実行して、結果を$stmtに代入する。
       if($query->num_rows > 0){

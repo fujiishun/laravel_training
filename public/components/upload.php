@@ -38,4 +38,4 @@ if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
 echo $statusMsg;
 ?>
 <br/>
-<a href="http://localhost:8888/php_lesson01/">Home</a>
+<a href="http://127.0.0.1:8000">Home</a>
