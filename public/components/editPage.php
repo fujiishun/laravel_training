@@ -11,7 +11,7 @@ if($query->num_rows > 0){
     while($row = $query->fetch_assoc()){
         $id = $row["id"];
         $title = $row["title"];
-        $imageURL = 'uploads/'.$row["file_name"];
+        $imageURL = './../uploads/'.$row["file_name"];
         $text = $row["text"];
 ?>
         <?php echo "id:".$id;

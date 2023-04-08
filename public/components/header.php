@@ -2,9 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://127.0.0.1:8000/../style.css">
   <title>藤井トレーニングサイト</title>
 </head>
+
+<?php include('sidebar.php'); ?>
+
 <!-- header -->
 <header>
   <h1 class="headline">
@@ -19,4 +22,3 @@
   </ul>
 </header>
 <body>
-</html>

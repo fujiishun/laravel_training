@@ -4,7 +4,7 @@ include 'dbConfig.php';
 $statusMsg = '';
 
 // ファイルのアップロード先
-$targetDir = "uploads/";
+$targetDir = "./../uploads/";
 $title = $_POST["title"];
 $text = $_POST["text"];
 $fileName = basename($_FILES["file"]["name"]);

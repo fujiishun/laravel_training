@@ -23,7 +23,7 @@
         while($row = $query->fetch_assoc()){
             $id = $row["id"];
             $title = $row["title"];
-            $imageURL = 'uploads/'.$row["file_name"];
+            $imageURL = './../uploads/'.$row["file_name"];
             $text = $row["text"];
 
             echo "<br><h2>ID：".$id."</h2><br>";

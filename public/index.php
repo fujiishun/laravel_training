@@ -19,7 +19,7 @@
             echo "タイトル： ".$title;
         ?>
         <br/>
-        <a href="detail.php?id=<?php print($row['id']) ?>">
+        <a href="components/detail.php?id=<?php print($row['id']) ?>">
         <img src="<?php echo $imageURL; ?>" width="200" height="140" alt="" /><br/></a>
         <?php echo "本文： ".$text;
         ?><br/>
