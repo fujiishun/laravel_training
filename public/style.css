@@ -51,18 +51,16 @@ article {
 .navigation {
   position: relative;
   height: 100vh;
-  width: 70px;
+  width: 140px;
   background-color: #1e1d34;
   box-shadow: 10px 0 0 #000000;
   border-left: 10px solid #1e1d34;
   overflow-x: hidden;
   transition: all 0.5s;
 }
-
 .navigation:hover {/*サイドバーの幅（AFTER）*/
-  width: 250px;
+  width: 330px;
 }
-
 .navigation ul {
   position: absolute;
   top: 0;
@@ -71,7 +69,6 @@ article {
   padding-top: 20px;
   padding-left: 10px;
 }
-
 .navigation ul li {
   list-style: none;
   display: block;
@@ -123,9 +120,9 @@ article {
   box-shadow: 15px -15px 0 #000000;
 }
 
-.navigation ul li a .icon {
+.navigation ul li a .icon {/*icon width*/
   display: block;
-  min-width: 45px;
+  min-width: 100px;
   height: 60px;
   line-height: 70px;
   text-align: center;
