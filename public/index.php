@@ -31,4 +31,6 @@
         </p>
     <?php } ?>
 
+<?php include('components/pagenationPage.php'); ?>
+
 <?php include('components/footer.php'); ?>
