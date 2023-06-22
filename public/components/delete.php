@@ -1,4 +1,4 @@
-
+<?php include('header.php'); ?>
 <?php
     if (isset($_GET['id'])) {
         try {
@@ -30,3 +30,4 @@
         }
     }
 ?>
+<?php include('footer.php'); ?>

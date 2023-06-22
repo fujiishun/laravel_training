@@ -2,13 +2,13 @@
  <div class="navigation">
       <ul>
         <li class="list active">
-          <a href="#">
+          <a href="http://127.0.0.1:8000/index.php">
             <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
             <span class="title">ホーム</span>
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="http://127.0.0.1:8000/components/profile.php">
             <span class="icon"
               ><ion-icon name="person-circle-outline"></ion-icon
             ></span>
@@ -16,9 +16,25 @@
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="http://127.0.0.1:8000/components/login.php">
+            <span class="icon"
+              ><ion-icon name="person-circle-outline"></ion-icon
+            ></span>
+            <span class="title">ログイン</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="http://127.0.0.1:8000/components/send.php">
+            <span class="icon"
+              ><ion-icon name="id-card-outline"></ion-icon
+            ></span>
+            <span class="title">投稿ページ</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="http://127.0.0.1:8000/components/searchPage.php">
             <span class="icon"><ion-icon name="tv-outline"></ion-icon></span>
-            <span class="title">チャンネル</span>
+            <span class="title">検索ページ</span>
           </a>
         </li>
         <li class="list">
@@ -27,14 +43,6 @@
               ><ion-icon name="settings-outline"></ion-icon
             ></span>
             <span class="title">設定</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#">
-            <span class="icon"
-              ><ion-icon name="id-card-outline"></ion-icon
-            ></span>
-            <span class="title">個人情報</span>
           </a>
         </li>
         <li class="list">

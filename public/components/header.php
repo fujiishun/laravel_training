@@ -15,11 +15,12 @@
   </h1>
   <ul class="nav-list">
     <li class="nav-list-item">
-      <a href="http://127.0.0.1:8000">Home</a>
+      <a href="http://127.0.0.1:8000/index.php">Home</a>
     </li>
     <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/send.php">Send</a></li>
     <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/searchPage.php">Search</a></li>
-    <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/pagetest.php">Pagenation</a></li>
+    <li class="nav-list-item"><a href="http://127.0.0.1:8000/components/search.php">Pagenation</a></li>
   </ul>
 </header>
 <body>
+<div class="main">
